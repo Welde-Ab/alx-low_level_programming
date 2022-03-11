@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-char stt[] = {'a','n','d',' ', };
+char stt[] = {'a', 'n', 'd', ' '};
 putchar(*stt);
 return (1);
 }

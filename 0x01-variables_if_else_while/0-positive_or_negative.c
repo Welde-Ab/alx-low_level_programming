@@ -6,7 +6,7 @@
 /*
  *main - main function
  *Description: Take a random number and assign positive or negative to it
- *Return: 0 upon 
+ *Return: 0 upon
 */
 int main(void)
 {

@@ -3,8 +3,8 @@
 #include <time.h>
 /* more headers goes there */
 
-/* 
- *Take a random number and assign positive or negative to it 
+/*
+ *Take a random number and assign positive or negative to it
 */
 int main(void)
 {

@@ -16,21 +16,21 @@ for (j = 0; j < 60; j++)
 if (i < 10)
 {
 _putchar('0');
-_putchar(i);
+_putchar((char)i);
 }
 else
 {
-_putchar(i);
+_putchar((char)i);
 }
 _putchar(':');
 if (j < 10)
 {
 _putchar('0');
-_putchar(j);
+_putchar((char)j);
 }
 else
 {
-_putchar(j);
+_putchar((char)j);
 }
 _putchar('\n');
 }

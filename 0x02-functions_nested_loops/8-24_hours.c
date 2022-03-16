@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - jack_bauer
+ * jack_bauer: 24 hour timer count
  * Description: Prints the time count on new line
  * Return: time count
  */
@@ -11,11 +11,12 @@ int i;
 int j;
 for (i = 0; i < 24; i++)
 {
-for (j=0; j < 60; j++)
+for (j = 0; j < 60; j++)
 {
 if (i < 10)
 {
-_putchar('0' + i);
+_putchar('0');
+_putchar(i);
 }
 else
 {
@@ -24,7 +25,8 @@ _putchar(i);
 _putchar(':');
 if (j < 10)
 {
-_putchar('0' + j);
+_putchar('0');
+_putchar(j);
 }
 else
 {

@@ -1,5 +1,5 @@
 #include "main.h"
-#include <math.h>
+#include <stdlib.h>
 
 /**
  * print_last_digit - check the code

@@ -12,8 +12,8 @@ for (i=0; i<10;i++)
 {
 for (lett = 'a'; lett <= 'z'; lett++)
 {
-putchar(lett);      
+_putchar(lett);      
 }
-putchar('\n'); 
+_putchar('\n'); 
 }
 }

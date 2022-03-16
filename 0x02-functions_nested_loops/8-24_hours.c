@@ -1,12 +1,36 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * main - jack_bauer
+ * Description: Prints the time count on new line
+ * Return: time count
  */
-int main(void)
+void jack_bauer(void)
 {
-  jack_bauer();
-  return (0);
+int i;
+int j;
+for (i = 0; i < 24; i++)
+{
+for (j=0; j < 60; j++)
+{
+if (i < 10)
+{
+_putchar('0' + i);
+}
+else
+{
+_putchar(i);
+}
+_putchar(':');
+if (j < 10)
+{
+_putchar('0' + j);
+}
+else
+{
+_putchar(j);
+}
+_putchar('\n');
+}
+}  
 }

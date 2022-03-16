@@ -1,8 +1,6 @@
 #include "main.h"
-
 /**
- * putchar program
- * main: simply prints _putchar
+ * main - simply prints _putchar
  * Description: main funciton prints the character _putchar
  * Returns: Program returns 0
  */

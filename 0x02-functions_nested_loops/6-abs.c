@@ -16,7 +16,7 @@ else if (num == 0)
 {
 return (0);
 }
-else (num > 0)
+else
 {
 return (num);
 }

@@ -1,17 +1,16 @@
 #include "main.h"
 /**
- * main - simply prints _putchar
- * Description: main funciton prints the character _putchar
+ * print_alphabet - simply prints _putchar
+ * Description: a function that prints the alphabet, in lowercase, followed by a new line.
  * Return: Program returns 0
  */
-int main(void)
-{
-print_alphabet();
-return (0);
-}
-
 void print_alphabet(void)
 {
 int ascii = 97;
-putchar('\n');
+while(ascii<=97)
+{
+putchar((char)ascii);
+ascii++;
+}
+putchar("\n");
 }

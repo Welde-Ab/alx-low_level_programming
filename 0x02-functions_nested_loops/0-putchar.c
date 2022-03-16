@@ -1,8 +1,8 @@
 #include "main.h"
 /*
  * Program that prints _putchar
- * Function Main
- * Description:  Program prints the character _putchar
+ * main: simply prints _putchar
+ * Description: main funciton prints the character _putchar
  * Returns: 0
  */
 int main(void)
@@ -16,5 +16,5 @@ _putchar('h');
 _putchar('a');
 _putchar('r');
 _putchar('\n');
-return 0;
+return (0);
 }

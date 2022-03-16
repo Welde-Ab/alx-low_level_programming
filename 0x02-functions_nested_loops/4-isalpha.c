@@ -1,5 +1,4 @@
 #include "main.h"
-#include <ctype.h>
 
 /**
  * _isalpha - check the code.
@@ -8,5 +7,12 @@
  */
 int _isalpha(int c)
 {
-return (isalpha(c));
+if ((c >= 65 && c<=90) || (c >= 97 && c <= 122))
+{
+return (1);      
+}
+else
+{
+return (0);
+}
 }

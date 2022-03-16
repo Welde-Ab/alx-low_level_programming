@@ -15,6 +15,6 @@ void print_alphabet(void)
 int ascii = 97;
 while(ascii<=122)
 {
-putchar(char(ascii));
+putchar((char)ascii);
 }
 }

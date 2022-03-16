@@ -7,6 +7,6 @@
  */
 int _isalpha(int c)
 {
-int stat = isalpha(c);
+int stat = isalpha((char)c);
 return (stat);
 }

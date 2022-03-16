@@ -9,8 +9,8 @@ void print_alphabet(void)
 int ascii = 97;
 while(ascii<=97)
 {
-putchar((char)ascii);
+_putchar((char)ascii);
 ascii++;
 }
-putchar("\n");
+_putchar("\n");
 }

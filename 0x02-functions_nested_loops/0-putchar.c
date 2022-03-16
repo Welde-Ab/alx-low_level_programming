@@ -2,7 +2,7 @@
 /**
  * main - simply prints _putchar
  * Description: main funciton prints the character _putchar
- * Returns: Program returns 0
+ * Return: Program returns 0
  */
 int main(void)
 {

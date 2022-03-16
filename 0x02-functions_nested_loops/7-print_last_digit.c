@@ -11,7 +11,7 @@ if (num < 0)
 {
 num *= -1;
 }
-int last;
+int last = 0;
 last = num % 10;
 return (last * 10 + last);
 }

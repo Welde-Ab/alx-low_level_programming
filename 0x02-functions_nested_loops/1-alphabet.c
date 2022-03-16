@@ -13,10 +13,5 @@ return (0);
 void print_alphabet(void)
 {
 int ascii = 97;
-while(ascii<=122)
-{
-putchar((char)ascii);
-ascii++;
-}
 putchar('\n');
 }

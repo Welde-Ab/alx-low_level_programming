@@ -11,5 +11,7 @@ if (num < 0)
 {
 num *= -1;
 }
-return (sum);
+num %= 10;
+_putchar('0' + num);
+return (num);
 }

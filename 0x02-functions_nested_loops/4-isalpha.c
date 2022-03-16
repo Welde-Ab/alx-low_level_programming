@@ -1,5 +1,6 @@
 #include "main.h"
 #include <ctype.h>
+
 /**
  * _isalpha - check the code.
  * @c - character to be checked
@@ -7,6 +8,5 @@
  */
 int _isalpha(int c)
 {
-int stat = isalpha((char)c);
-return (stat);
+return (isalpha(c));
 }

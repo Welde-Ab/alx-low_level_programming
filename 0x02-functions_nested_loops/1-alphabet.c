@@ -12,5 +12,5 @@ while(ascii<=97)
 _putchar((char)ascii);
 ascii++;
 }
-_putchar("\n");
+_putchar('\n');
 }

@@ -13,5 +13,5 @@ if (num < 0)
 num *= -1;
 }
 last = num % 10;
-return (last * 10 + last);
+return ((last * 10) + (last));
 }

@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * jack_bauer: 24 hour timer count
+ * jack_bauer - 24 hour timer count
  * Description: Prints the time count on new line
  * Return: time count
  */
@@ -43,5 +43,5 @@ _putchar((j % 10) + '0');
 }
 _putchar('\n');
 }
-}  
+} 
 }

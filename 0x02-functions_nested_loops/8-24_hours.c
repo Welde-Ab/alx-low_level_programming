@@ -38,7 +38,7 @@ else
 temp = j % 10;
 temp = j - temp;
 temp /= 10;
-_putchar(temp + '0')
+_putchar(temp + '0');
 _putchar((j % 10) + '0');
 }
 _putchar('\n');

@@ -12,6 +12,6 @@ if (num < 0)
 num *= -1;
 }
 num %= 10;
-_putchar('0' + num);
+_putchar(num + '0');
 return (num);
 }

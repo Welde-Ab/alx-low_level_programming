@@ -2,14 +2,8 @@
 
 /**
  * print_last_digit - check the code
- * @num: input to the program
+ * @n: input to the program
  * Return: last digit of num
- */
-#include "main.h"
-/**
- * print_last_digit - return last digit
- * @n : number to check
- * Return:0 or 1
  */
 
 int print_last_digit(int n)

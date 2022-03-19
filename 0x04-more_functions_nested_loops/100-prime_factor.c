@@ -3,7 +3,7 @@
 
 /**
  * main - prime numbers
- *
+ * Description: Computes prime numbers
  * Return: Always 0.
  */
 
@@ -20,6 +20,5 @@ break;
 }
 a--;
 }
-  
 return (0);
 }

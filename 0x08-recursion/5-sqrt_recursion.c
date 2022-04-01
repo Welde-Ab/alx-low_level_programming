@@ -12,7 +12,7 @@ return (_square(n, 1));
 }
 
 /**
-* square - find square root
+* _square - find square root
 * @n: int to find square root
 * @val: square root
 * Return: int

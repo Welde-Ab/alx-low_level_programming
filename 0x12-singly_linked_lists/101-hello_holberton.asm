@@ -2,18 +2,11 @@ section .text
 ;;  Export the entry point to the ELF linker or loader.  The conventional
 ;;  entry point is "_start". Use "ld -e foo" to override the default.
 
-global _start
-
 section .data
-
 msg db  'Hello, Holberton',0xa ;our dear string
-
 len equ $ - msg         ;length of our dear string
-
 section .text
-
 ;;  linker puts the entry point here:
-
 _start:
 ;;  Write the string to stdout:
 mov edx,len 	;message length

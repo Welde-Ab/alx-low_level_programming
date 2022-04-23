@@ -1,1 +1,1 @@
-Static libararies
+# C - Static libraries
